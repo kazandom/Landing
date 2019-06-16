@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Восточный базар</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="framework/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Custom fonts -->
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri:400,500,600,700|Marck+Script&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
+    <!-- Custom styles -->
+    <link href="custom.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+  
+	<!-- /.jQuery modal win -->
+	<div class="modal" id="jquerywin" tabindex="-1" role="dialog">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title">Напишите нам о Ваших пожеланиях</h5>
+			<button class="hidewin close">
+			  <span>&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<form>
+			  <div class="form-group">
+				<label for="InputEmail" class="col-form-label">Ваш электронный адрес:</label>
+				<input type="email" class="form-control" id="InputEmail" placeholder="email">
+			  </div>			  	
+			  <div class="form-group">
+				<label for="name" class="col-form-label">Ваше имя:</label>
+				<input type="text" class="form-control" id="name" placeholder="имя">
+			  </div>
+			  <div class="form-group">
+				<label for="message-text" class="col-form-label">Сообщение:</label>
+				<textarea class="form-control" id="message-text" placeholder="введите здесь текст Вашего обращения"></textarea>
+			  </div>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button class="hidewin btn btn-secondary">Закрыть</button>
+			<button class="btn btn-warning">Отправить</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent" id="scrollspy">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Восточный базар</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+			<div class="navbar-nav ml-auto">
+			  <a class="nav-item nav-link nav-link-transparent js-scroll-trigger" href="#features">Преимущества</a>
+			  <a class="nav-item nav-link nav-link-transparent js-scroll-trigger" href="#showcase">Мы предлагаем</a>
+			  <a class="nav-item nav-link nav-link-transparent js-scroll-trigger" href="#feedback">Отзывы</a>
+			  <a class="nav-item nav-link nav-link-transparent" href="about.html">О нас</a>
+			  <span class="nav-item nav-link nav-link-transparent ml-lg-5 fas fa-envelope showwin"></span>
+			</div>
+        </div>		
+      </div>
+    </nav>
+
+    <header>
+		<div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselIndicators" data-slide-to="3"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item c-img-0 active" data-pause="false">		  
+				<div class="carousel-caption">
+					<h1>Восточный базар</h1>
+					<p>Уютное место для вкусного отдыха и подарков в центре Казани</p>
+				</div>
+			</div>
+			<div class="carousel-item c-img-1" data-pause="false">
+				<div class="carousel-caption">
+					<h1>Загляните к нам</h1>
+					<p>Попробуйте наши сладости ручной работы и наши авторские чаи!</p>
+				</div>
+			</div>
+			<div class="carousel-item c-img-2" data-pause="false">
+				<div class="carousel-caption">
+					<h1>Вкус востока</h1>
+					<p>Насладитесь изобилием восточных сладостей на любой вкус!</p>
+				</div>
+			</div>
+			<div class="carousel-item c-img-3" data-pause="false">
+				<div class="carousel-caption">
+					<h1>Мы Вам рады!</h1>
+					<p>Ощутите доброжелательную атмосферу татарского гостериимства!</p>
+				</div>
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+			<span class="fas fa-angle-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+			<span class="fas fa-angle-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>      
+    </header>
+
+	<section id="features" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-item mx-auto mb-5 mb-lg-3">
+			  <div class="mb-3 features-hover">
+				<div class="mx-auto rounded-circle features-img f-img-0"></div>
+			  </div>
+              <h3>Татарское чаепитие</h3>
+              <p class="lead mb-0">Здесь можно выпить ароматный чай с национальными татарскими сладостями или купить кучтэнэч для родных</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-item mx-auto mb-5 mb-lg-3">
+              <div class="mb-3 features-hover">
+				<div class="mx-auto rounded-circle features-img f-img-1"></div>
+			  </div>
+              <h3>Большой выбор</h3>
+              <p class="lead mb-0">Разнообразие традиционных восточных блюд, которое удовлетворит даже самый требовательный вкус</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-item mx-auto mb-0 mb-lg-3">
+              <div class="mb-3 features-hover">
+				<div class="mx-auto rounded-circle features-img f-img-2"></div>
+			  </div>
+              <h3>Атмосфера востока</h3>
+              <p class="lead mb-0">Хорошее место, чтобы провести время в окружении восточной культуры и узнать местный колорит</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="showcase">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img s-img-0"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Выбор на любой вкус</h2>
+            <p class="lead mb-0">В стенах магазин-буфета Восточный Базар Вы можете полакомиться свежой сливочной пахвалой, нежным рахат-лукумом. Мы также предложим Вам множество видов чак-чака и халвы, татарской выпечки, сладости ручной работы, а также различные сувениры с символикой города.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-white showcase-img s-img-1"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Разнобразие напитков</h2>
+            <p class="lead mb-0">Кроме сладостей и национальной выпечки здесь Вы сможете испить вкусный кофе, пробовать татарский чай с душицей, имбирно-лимонный напиток. Авторские чайные сборы включают в себя травы нашей полосы. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img s-img-2"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Приятная обстановка с восточным стилем</h2>
+            <p class="lead mb-0">Выпить чай или кофе и съесть элеш можно на мягких диванах с боковинами из ткани с яркими восточными узорами. Стены в чайном зале украшают шамаили с узорами и пословицами на тему еды на арабском языке.</p>
+          </div>
+        </div>
+      </div>
+    </section>	
+
+	<section id="feedback" class="text-center">
+      <div class="container">
+		<h2 class="mb-5">Что говорят наши посетители...</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="feedback-item mx-auto mb-5 mb-lg-0">
+              <img class="mb-3" src="images/marik.jpg" alt="">
+              <h5>Марик Фейш</h5>
+              <p class="font-weight-light mb-0">"Очень уютное и колоритное место! Действительное вкусный чай и сладости как в центре Стамбула. Спасибо!)"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feedback-item mx-auto mb-5 mb-lg-0">
+              <img class="mb-3" src="images/liana.jpg" alt="">
+              <h5>Лиана Марданова</h5>
+              <p class="font-weight-light mb-0">"Были с подругой! Очень классное заведение. Можно купить и сувениры, разные сладости, или другую продукцию, да и вкусно покушать. Классный интерьер, удобные кресла."</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feedback-item mx-auto mb-5 mb-lg-0">
+              <img class="mb-3" src="images/maria.jpg" alt="">
+              <h5>Мария Мороховец</h5>
+              <p class="font-weight-light mb-0">"Самый вкусный чак-чак. Обворожительная девочка в магазине. Сделали отличные покупки и подняли настроение. Супер!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="promise">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+            <div class="promise-inner text-center">
+              <h2 class="mb-4">
+                <span class="font-weight-light d-block">Наше Обещание</span>
+				<span class="d-block">ВАМ</span>
+              </h2>
+              <p class="font-weight-light mb-0">Когда вы заходите в наш магазин, чтобы начать свой день, мы стремимся предоставить вам дружелюбное обслуживание, гостеприимную атмосферу и, прежде всего, отличные продукты, изготовленные из ингредиентов высочайшего качества. Если вы не удовлетворены, пожалуйста, дайте нам знать, и мы сделаем все возможное, чтобы все исправить!</p>
+			  <button class="btn btn-warning mt-4 showwin">Написать нам</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <!-- Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Восточный базар 2019</p>
+      </div>
+    </footer>
+	
+	<a id="top-button" class="scroll-to-top js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="framework/jquery-3.3.1.min.js"></script>
+    <script src="framework/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+	<script src="framework/jquery-ui.effectscore.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="custom.js"></script>
+
+  </body>
+
+</html>
